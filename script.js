@@ -1,4 +1,3 @@
-// Navigation function
 function showPage(page) {
 
     document.getElementById("homePage").style.display = "none";
@@ -10,8 +9,6 @@ function showPage(page) {
         document.getElementById("predictionPage").style.display = "block";
     }
 }
-
-// Prediction function
 function predict() {
 
     let date = document.getElementById("date").value;
