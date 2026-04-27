@@ -5,8 +5,6 @@ body {
     background-size: cover;
     color: white;
 }
-
-/* Sidebar */
 .sidebar {
     position: fixed;
     width: 150px;
@@ -32,7 +30,6 @@ body {
     padding: 20px;
 }
 
-/* Title (centered) */
 h1 {
     text-align: center;
     background: black;
@@ -41,7 +38,6 @@ h1 {
     border-bottom: 3px solid red;
 }
 
-/* Overview button (LEFT only) */
 .overview-btn {
     background: black;
     color: white;
@@ -53,7 +49,6 @@ h1 {
     cursor: pointer;
 }
 
-/* Plain content (no box) */
 .content {
     color: black;
     margin: 20px 40px;
@@ -62,7 +57,6 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Input section */
 .input-box {
     text-align: center;
     margin-top: 30px;
@@ -73,7 +67,6 @@ input {
     width: 200px;
 }
 
-/* Buttons */
 button {
     background: red;
     color: white;
@@ -82,7 +75,6 @@ button {
     cursor: pointer;
 }
 
-/* Result box */
 .result-box {
     margin: 30px auto;
     width: 300px;
