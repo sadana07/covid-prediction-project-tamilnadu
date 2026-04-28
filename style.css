@@ -3,7 +3,7 @@ body {
     font-family: Arial;
     background: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144");
     background-size: cover;
-    color: white;
+    color: yellow;
 }
 .sidebar {
     position: fixed;
