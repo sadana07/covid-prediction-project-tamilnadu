@@ -1,5 +1,4 @@
 function showPage(page) {
-
     document.getElementById("homePage").style.display = "none";
     document.getElementById("predictionPage").style.display = "none";
 
