@@ -12,7 +12,6 @@ body {
     background: black;
     padding-top: 20px;
 }
-
 .sidebar a {
     display: block;
     color: white;
@@ -24,12 +23,10 @@ body {
     background: red;
 }
 
-/* Main content */
 .main {
     margin-left: 160px;
     padding: 20px;
 }
-
 h1 {
     text-align: center;
     background: black;
