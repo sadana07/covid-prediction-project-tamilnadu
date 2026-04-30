@@ -16,9 +16,7 @@ function predict() {
     fetch("http://127.0.0.1:5000/predict")
         .then(res => res.json())
         .then(data => {
-
             let val = data[0].Predicted_Hospitalized;
-
             let level;
             if (val < 2000) level = 1;
             else if (val < 4000) level = 2;
