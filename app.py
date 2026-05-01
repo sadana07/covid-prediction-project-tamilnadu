@@ -20,17 +20,14 @@ def districts():
 @app.route("/predict")
 def predict():
     last_day = daily_cases["Day_Number"].max()
-
     future_days = np.array(range(last_day+1, last_day+31)).reshape(-1,1)
     predictions = model.predict(future_days)
-
     result = []
     for i, val in enumerate(predictions):
         result.append({
             "Day": int(last_day + i + 1),
             "Predicted_Hospitalized": int(val)
         })
-
     return jsonify(result)
 if __name__ == "__main__":
     app.run(debug=True)
