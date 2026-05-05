@@ -11,12 +11,15 @@ X = daily_cases[["Day_Number"]]
 y = daily_cases["Hospitalized"]
 model = LinearRegression()
 model.fit(X, y)
+
 @app.route("/")
 def home():
     return "COVID API Running"
+    
 @app.route("/districts")
 def districts():
     return jsonify(district_summary.to_dict(orient="records"))
+    
 @app.route("/predict")
 def predict():
     last_day = daily_cases["Day_Number"].max()
