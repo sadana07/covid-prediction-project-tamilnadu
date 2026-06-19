@@ -7,7 +7,7 @@ function showPage(page) {
     } else {
         document.getElementById("predictionPage").style.display = "block";
     }
-}
+} 
 function predict() {
     let date = document.getElementById("date").value;
     let time = document.getElementById("time").value;
