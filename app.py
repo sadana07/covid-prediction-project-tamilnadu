@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 app = Flask(__name__)
 CORS(app)   
 district_summary = pd.read_csv("district_summary.csv")
-daily_cases = pd.read_csv("daily_cases.csv")
+daily_cases = pd.read_csv("daily_cases.csv") 
 X = daily_cases[["Day_Number"]]
 y = daily_cases["Hospitalized"]
 model = LinearRegression()
