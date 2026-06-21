@@ -5,7 +5,7 @@ function showPage(page) {
     if (page === "home") {
         document.getElementById("homePage").style.display = "block";
     } else {
-        document.getElementById("predictionPage").style.display = "block";
+        document.getElementById("predictionPage").style.display = "block"; 
     }
 } 
 function predict() {
