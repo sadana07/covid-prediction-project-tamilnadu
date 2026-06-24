@@ -3,7 +3,7 @@ from flask_cors import CORS
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
-app = Flask(__name__)
+app = Flask(__name__) 
 CORS(app)   
 district_summary = pd.read_csv("district_summary.csv")
 daily_cases = pd.read_csv("daily_cases.csv")
