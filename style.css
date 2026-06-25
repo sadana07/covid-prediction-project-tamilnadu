@@ -4,7 +4,7 @@ body {
     background: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144");
     background-size: cover;
     color: yellow;
-} 
+}  
 .sidebar {
     position: fixed;
     width: 150px;
