@@ -9,7 +9,7 @@ function showPage(page) {
     }
 }  
 function predict() {
-    let date = document.getElementById("date").value;
+    let date = document.getElementById("date").value; 
     let time = document.getElementById("time").value;
     fetch("http://127.0.0.1:5000/predict")
         .then(res => res.json())
