@@ -6,7 +6,7 @@ body {
     color: yellow;
 }  
 .sidebar {
-    position: fixed;
+    position: fixed; 
     width: 150px;
     height: 100%;  
     background: black; 
